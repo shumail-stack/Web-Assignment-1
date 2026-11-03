@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitab Khana | Urdu Novels</title>
+    <link rel="stylesheet" href="Assignment-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="head-left">
+            <h1 class="urdu">کتاب خانہ</h1>
+        </div>
+        <div class="head-center">
+            <p class="brand">Kitab Khana</p>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#collection">Collection</a>
+                <a href="#form">Join Us</a>
+            </nav>
+        </div>
+        <div class="head-right">
+            <button id="theme-button">Toggle Light/Dark Mode</button>
+            <p id="status">Checking...</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section id="home">
+            <div class="home-text">
+                <p class="tag">Urdu Novels &amp; Stories</p>
+                <h2 class="urdu">جہاں لفظ کہانیاں بنتے ہیں</h2>
+                <p class="urdu-small">کتابیں صرف پڑھی نہیں جاتیں، محسوس بھی کی جاتی ہیں۔</p>
+                <p>Discover beautiful Urdu novels, amazing stories and unforgettable characters.</p>
+                <a class="btn" href="#places">Explore Novels</a>
+            </div>
+            <div class="home-pics">
+                <img class="pic1" src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80" alt="Open book">
+                <img class="pic2" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=600&q=80" alt="Books on shelf">
+                <img class="pic3" src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=600&q=80" alt="Library">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Us</h2>
+            <article>
+                <p>Kitab Khana is a small space for people who love Urdu novels and beautiful stories.</p>
+                <p id="extra-text" style="display: none;">Our collection brings together stories filled with emotions, relationships, imagination and memorable characters. We want readers to discover new novels and enjoy the timeless beauty of Urdu literature.</p>
+                <button id="read-more">Read More</button>
+            </article>
+        </section>
+
+        <!-- PLACES -->
+        <section id="places">
+            <h2>Places Where Novels Were Born</h2>
+            <p class="sub">Cities that live inside our favourite stories.</p>
+            <div class="places-grid">
+                <div class="place" style="--img: url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=700&q=80');">
+                    <h3>Istanbul, Turkey</h3>
+                    <p>Jannat Ke Pattay</p>
+                </div>
+                <div class="place" style="--img: url('https://images.unsplash.com/photo-1506377585622-bedcbb027afc?auto=format&fit=crop&w=700&q=80');">
+                    <h3>Edinburgh, Scotland</h3>
+                    <p>B3</p>
+                </div>
+                <div class="place" style="--img: url('https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=700&q=80');">
+                    <h3>Cairo, Egypt</h3>
+                    <p>Haalim</p>
+                </div>
+                <div class="place" style="--img: url('https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?auto=format&fit=crop&w=700&q=80');">
+                    <h3>Lahore, Pakistan</h3>
+                    <p>Raja Gidh</p>
+                </div>
+                <div class="place" style="--img: url('https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=700&q=80');">
+                    <h3>Lucknow, India</h3>
+                    <p>Aag Ka Darya</p>
+                </div>
+                <div class="place" style="--img: url('https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=700&q=80');">
+                    <h3>Islamabad, Pakistan</h3>
+                    <p>Peer-e-Kamil</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- READING -->
+        <section id="reading">
+            <h2>Why Do We Love Reading?</h2>
+            <p class="sub">Books help us learn, imagine and understand life.</p>
+            <ol type="A">
+                <li><strong>Imagination</strong><span>Worlds that only exist in words.</span></li>
+                <li><strong>Emotions</strong><span>Feel every joy and every heartbreak.</span></li>
+                <li><strong>Knowledge</strong><span>Every page teaches something new.</span></li>
+                <li><strong>Peace</strong><span>A quiet corner away from the noise.</span></li>
+            </ol>
+        </section>
+
+        <!-- COLLECTION -->
+        <section id="collection">
+            <h2>Book Collection</h2>
+            <div class="collection-box">
+                <aside>
+                    <details>
+                        <summary>Filter</summary>
+                        <div id="filters">
+                            <button class="filter" data-category="all">All</button>
+                            <button class="filter" data-category="thriller">Psychological Thriller</button>
+                            <button class="filter" data-category="romance">Romance</button>
+                            <button class="filter" data-category="history">History</button>
+                            <button class="filter" data-category="spiritual">Spiritual Fiction</button>
+                            <button class="filter" data-category="pakistan">Pakistani Literature</button>
+                        </div>
+                    </details>
+                </aside>
+                <div class="table-wrap">
+                    <table>
+                        <tr id="heading-row">
+                            <th>Select</th>
+                            <th>Novel</th>
+                            <th>Author</th>
+                            <th>Genre</th>
+                            <th>Rating</th>
+                        </tr>
+                        <tr class="data" data-category="thriller">
+                            <td><input type="checkbox" class="book-check" value="10"></td>
+                            <td>B# Mehrunisa</td>
+                            <td>Zill Ahmed Rao</td>
+                            <td>Psychological Thriller</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="thriller">
+                            <td><input type="checkbox" class="book-check" value="11"></td>
+                            <td>Amarbail</td>
+                            <td>Umera Ahmed</td>
+                            <td>Psychological Thriller</td>
+                            <td>★★★★☆</td>
+                        </tr>
+                        <tr class="data" data-category="spiritual">
+                            <td><input type="checkbox" class="book-check" value="10"></td>
+                            <td>Peer-e-Kamil</td>
+                            <td>Umera Ahmed</td>
+                            <td>Spiritual Fiction</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="spiritual">
+                            <td><input type="checkbox" class="book-check" value="12"></td>
+                            <td>Aab-e-Hayat</td>
+                            <td>Umera Ahmed</td>
+                            <td>Spiritual Fiction</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="romance">
+                            <td><input type="checkbox" class="book-check" value="9"></td>
+                            <td>Jannat Ke Pattay</td>
+                            <td>Nimra Ahmed</td>
+                            <td>Romance</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="romance">
+                            <td><input type="checkbox" class="book-check" value="10"></td>
+                            <td>Namal</td>
+                            <td>Nimra Ahmed</td>
+                            <td>Romance</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="history">
+                            <td><input type="checkbox" class="book-check" value="8"></td>
+                            <td>Aag Ka Darya</td>
+                            <td>Qurratulain Hyder</td>
+                            <td>History</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="history">
+                            <td><input type="checkbox" class="book-check" value="9"></td>
+                            <td>Udaas Naslain</td>
+                            <td>Abdullah Hussain</td>
+                            <td>Historical Fiction</td>
+                            <td>★★★★☆</td>
+                        </tr>
+                        <tr class="data" data-category="pakistan">
+                            <td><input type="checkbox" class="book-check" value="8"></td>
+                            <td>Raja Gidh</td>
+                            <td>Bano Qudsia</td>
+                            <td>Pakistani Literature</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr class="data" data-category="romance">
+                            <td><input type="checkbox" class="book-check" value="10"></td>
+                            <td>La-Hasil</td>
+                            <td>Umera Ahmed</td>
+                            <td>Romance</td>
+                            <td>★★★★☆</td>
+                        </tr>
+                    </table>
+                    <p id="total">Total: $0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORM -->
+        <section id="form">
+            <div class="form-side">
+                <h2>Join Our Reading Circle</h2>
+                <p>Tell us about your reading interests.</p>
+                <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=700&q=80" alt="Library books">
+            </div>
+            <form id="reading-form">
+                <label>Your Name:</label>
+                <input type="text" id="username" placeholder="Enter your name">
+                <label>Email:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <label>Birth Year:</label>
+                <input type="text" id="birth-year" placeholder="e.g. 2002">
+                <p id="discount-message"></p>
+                <label>Favorite Novel:</label>
+                <select>
+                    <option>Peer-e-Kamil</option>
+                    <option>Aab-e-Hayat</option>
+                    <option>La-Hasil</option>
+                </select>
+                <p>What do you prefer?</p>
+                <div class="radio-row">
+                    <input type="radio" name="book" id="physical">
+                    <label for="physical">Physical Book</label>
+                    <input type="radio" name="book" id="ebook">
+                    <label for="ebook">E-Book</label>
+                </div>
+                <label>Special Notes:</label>
+                <textarea id="special-notes" maxlength="100" placeholder="Write your special request..."></textarea>
+                <p id="counter">100 characters remaining</p>
+                <div class="radio-row">
+                    <input type="checkbox" id="news">
+                    <label for="news">Send me new novel recommendations.</label>
+                </div>
+                <button type="submit">Join Reading Circle</button>
+                <p id="form-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3 class="urdu">کتاب خانہ</h3>
+        <p>A little corner for people who love books.</p>
+        <div>
+            <a href="#home">Home</a> |
+            <a href="#places">Places</a> |
+            <a href="#collection">Collection</a>
+        </div>
+        <p>© 2026 Kitab Khana</p>
+    </footer>
+
+    <script src="Assignment-1.js"></script>
+</body>
+</html>
