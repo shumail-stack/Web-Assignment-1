@@ -411,10 +411,10 @@ td {
     border-bottom: 1px solid var(--line);
     font-size: 14px;
 }
-
+/* added this in js
 tr.data:hover {
     background: var(--bg2);
-}
+} */
 
 #total {
     margin-top: 15px;
