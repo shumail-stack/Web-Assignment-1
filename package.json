@@ -1,0 +1,28 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "**Kitab Khana** is a beautifully designed, interactive website dedicated to Urdu literature and novel lovers. It allows users to explore a collection of popular Urdu novels, discover their authors and genres, filter books by category, and join a reading circle. Built using **HTML, CSS, and JavaScript**, the project combines an elegant design with interactive features to create an enjoyable browsing experience.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shumail-stack/Web-Assignment-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shumail-stack/Web-Assignment-1/issues"
+  },
+  "homepage": "https://github.com/shumail-stack/Web-Assignment-1#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
