@@ -23,6 +23,7 @@ Explore the live website here:
 - **HTML5** – Website structure and content.
 - **CSS3** – Styling, layouts, responsive design, and visual appearance.
 - **JavaScript** – Interactive features, filtering, theme switching, and form functionality.
+- **Node.js & Express** – Backend server and routing.
 
 ## 🚀 How to Run the Project
 
@@ -48,6 +49,7 @@ Web-Assignment-1/
 ├── style.css        # Website styling and layout
 ├── script.js        # Interactive functionality
 └── README.md        # Project documentation
+
 ```
 
 ## 🎯 Project Purpose
